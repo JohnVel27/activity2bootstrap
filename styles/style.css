@@ -1,0 +1,110 @@
+.user_option {
+    display: flex;
+    align-items: center;
+    gap: 15px;
+}
+
+.user_link, .cart_link, .order_online {
+    text-decoration: none;
+    color: #333;
+    font-size: 18px;
+    transition: color 0.3s ease;
+}
+
+.user_link i, .cart_link svg, .nav_search-btn i {
+    font-size: 24px;
+}
+
+.user_link:hover, .cart_link:hover, .order_online:hover {
+    color: #4f374f;
+}
+
+.cart_link svg {
+    width: 28px;
+    height: 28px;
+    fill: #fffdfd;
+    transition: fill 0.3s ease;
+}
+
+.cart_link:hover svg {
+    fill: #E7DDCA;
+}
+
+.form-inline {
+    display: flex;
+    align-items: center;
+}
+
+.nav_search-btn {
+    background: none;
+    border: none;
+    cursor: pointer;
+    padding: 5px;
+}
+
+.nav_search-btn i {
+    font-size: 20px;
+    color: #fdfdfd;
+    transition: color 0.3s ease;
+}
+
+.nav_search-btn:hover i {
+    color: #ff6600;
+}
+
+.order_online {
+    background: #878174;
+    color: white;
+    padding: 8px 15px;
+    border-radius: 5px;
+    font-weight: bold;
+    transition: background 0.3s ease;
+}
+
+.order_online:hover {
+    background: #E7DDCA;
+}
+
+  /* Ensure the carousel stays on the left side */
+  .carousel {
+    max-width: 100%;
+    width: 90%; /* Adjust width to fit nicely */
+    margin-left: -200px; /* Aligns to the left */
+  }
+  
+  .carousel img {
+    width: 100%; /* Ensures images are responsive */
+    height: 500px;
+    border-radius: 10px; /* Optional: rounded corners */
+
+  }
+
+  .favoritemusic p{
+    font-size: 20px;
+    margin-left: 40px;
+    color: white;
+  }
+
+  .favoritemusic h2{
+    font-size: 50px;
+    color: white;
+    
+  }
+
+  .body2{
+    background-color: #E7DDCA;
+    
+  }
+
+  #favoritemusic{
+    background-color: #878174;
+    padding: 70px 20px;
+    
+  }
+
+  .favoritemusic{
+    background-color: #E7DDCA;
+    padding: 30px;
+    box-shadow: 5px 10px;
+    
+  }
